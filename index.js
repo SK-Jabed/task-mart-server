@@ -28,7 +28,7 @@ async function run() {
     // await client.connect();
 
     // Collections
-    const database = client.db("taskManagerDB");
+    const database = client.db("taskMartDB");
     const userCollection = database.collection("users");
     const taskCollection = database.collection("tasks");
 
@@ -221,7 +221,7 @@ run().catch(console.dir);
 
 // Default route
 app.get("/", (req, res) => {
-  res.send("Task Manager is here");
+  res.send("Hello from TaskMart Server...");
 });
 
 // Start the server
