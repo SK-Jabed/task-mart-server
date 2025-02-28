@@ -163,6 +163,6 @@ This project is licensed under the **ISC License**.
 
 ## 👨‍💻 Author
 - **Sheikh Jabed** 🚀  
-  [GitHub](https://github.com/rjkafi) | [LinkedIn](https://www.linkedin.com/in/abdullah-all-kafi/)
+  [GitHub](https://github.com/SK-Jabed) | [LinkedIn](https://www.linkedin.com/in/abdullah-all-kafi/)
 
 ---
