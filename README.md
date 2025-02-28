@@ -162,7 +162,7 @@ This project is licensed under the **ISC License**.
 ---
 
 ## 👨‍💻 Author
-- **Abdullah All Kafi** 🚀  
+- **Sheikh Jabed** 🚀  
   [GitHub](https://github.com/rjkafi) | [LinkedIn](https://www.linkedin.com/in/abdullah-all-kafi/)
 
 ---
