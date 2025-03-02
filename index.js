@@ -226,5 +226,5 @@ app.get("/", (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is running on PORT: ${port}`);
+  console.log(`TaskMart Server is running on PORT: ${port}`);
 });
