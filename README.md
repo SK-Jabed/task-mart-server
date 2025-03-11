@@ -112,7 +112,7 @@ The purpose of this server is to:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/taskwiz-server.git
+git clone https://github.com/your-repo/taskmart-server.git
 cd task-mart-server
 ```
 
@@ -163,6 +163,6 @@ This project is licensed under the **ISC License**.
 
 ## 👨‍💻 Author
 - **Sheikh Jabed** 🚀  
-  [GitHub](https://github.com/SK-Jabed) | [LinkedIn](https://www.linkedin.com/in/abdullah-all-kafi/)
+  [GitHub](https://github.com/SK-Jabed)
 
 ---
