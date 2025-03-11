@@ -185,7 +185,7 @@ async function run() {
       });
     });
 
-    // Delete task (POST /tasks)
+    // Delete task (DELETE /tasks/:id)
     app.delete("/tasks/:id", async (req, res) => {
       const { id } = req.params;
 
