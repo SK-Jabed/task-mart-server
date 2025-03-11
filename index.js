@@ -32,7 +32,7 @@ async function run() {
     const userCollection = database.collection("users");
     const taskCollection = database.collection("tasks");
 
-    // Save All Users Data on Database
+    // Save All Users Data on Database (POST /users)
     app.post("/users", async (req, res) => {
       const user = req.body;
 
@@ -57,7 +57,7 @@ async function run() {
       });
     });
 
-    // Get All Users Data from Database
+    // Get All Users Data from Database (GET /users)
     app.get("/users", async (req, res) => {
       const result = await userCollection.find().toArray();
       res.send(result);
