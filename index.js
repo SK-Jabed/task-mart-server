@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 // Middleware
 app.use(cors());
@@ -27,7 +27,7 @@ async function run() {
     // Connect the client to the server
     // await client.connect();
 
-    // Collections
+    // Collections of Database
     const database = client.db("taskMartDB");
     const userCollection = database.collection("users");
     const taskCollection = database.collection("tasks");
