@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -101,7 +101,7 @@ async function run() {
       }
     });
 
-    // GET TASKS BY USER EMAIL
+    // GET TASKS BY USER EMAIL (GET /tasks)
     app.get("/tasks", async (req, res) => {
       try {
         const email = req.query.email;
@@ -120,7 +120,7 @@ async function run() {
       }
     });
 
-    // Get All Tasks (GET Operation)
+    // GET ALL TASK (GET /allTasks)
     app.get("/allTasks", async (req, res) => {
       const allTasks = await taskCollection.find().toArray();
       res.send(allTasks);
@@ -185,7 +185,7 @@ async function run() {
       });
     });
 
-    // Delete task
+    // Delete task (POST /tasks)
     app.delete("/tasks/:id", async (req, res) => {
       const { id } = req.params;
 
