@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 const app = express();
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -185,7 +185,7 @@ async function run() {
       });
     });
 
-    // Delete task (DELETE /tasks/:id)
+    // DELETE TASK (DELETE /tasks/:id)
     app.delete("/tasks/:id", async (req, res) => {
       const { id } = req.params;
 
