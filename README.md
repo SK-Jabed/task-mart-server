@@ -112,7 +112,7 @@ The purpose of this server is to:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/taskmart-server.git
+git clone https://github.com/sk-jabed/taskmart-server.git
 cd task-mart-server
 ```
 
