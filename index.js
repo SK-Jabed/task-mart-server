@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -57,7 +57,7 @@ async function run() {
       });
     });
 
-    // Get All Users Data from Database (GET /users)
+    // GET ALL USERS (GET /users)
     app.get("/users", async (req, res) => {
       const result = await userCollection.find().toArray();
       res.send(result);
