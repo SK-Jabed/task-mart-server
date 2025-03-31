@@ -1,5 +1,8 @@
 # TaskMart Server
 
+
+
+
 ## 📌 Project Overview
 The **TaskMart Server** is the backend service for a task management application. It provides a robust API for managing user authentication, task creation, updating, deletion, and real-time synchronization of task statuses. Built with **Node.js, Express.js, and MongoDB**, it ensures a seamless and efficient backend for task tracking.
 
