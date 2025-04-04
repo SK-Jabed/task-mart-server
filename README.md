@@ -1,4 +1,4 @@
-# TaskMart - Server
+# TaskMart - Server Side
 
 ## 📌 Project Overview
 
